@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | SwitDeveloper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="site-nav">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">SwitDeveloper</a>
+            <button class="menu-toggle">☰</button>
+            <ul class="nav-links">
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="section" style="padding-top: calc(var(--space-xxl) + var(--space-xl)); padding-bottom: var(--space-lg);">
+        <div class="container reveal-group">
+            <h1 class="display-2 reveal">Let's Talk.</h1>
+            <p class="lead reveal mt-md" style="max-width: 50ch;">Initiate a conversation about your next digital endeavor. We partner with visionaries to create the extraordinary.</p>
+        </div>
+    </header>
+
+    <!-- Contact Form & Details Layout -->
+    <section class="section" style="padding-top: 0;">
+        <div class="container">
+            <div class="grid grid-2 reveal-group" style="gap: var(--space-xxl);">
+
+                <!-- Contact Details -->
+                <div class="reveal">
+                    <h2 class="heading-2 mb-lg">Get in Touch</h2>
+
+                    <div class="mb-lg">
+                        <h4 style="text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-subtle); font-family: var(--font-sans); font-size: 0.875rem;" class="mb-sm">General Inquiries</h4>
+                        <p style="font-size: 1.25rem;"><a href="mailto:hello@switdeveloper.com" style="text-decoration: underline; text-underline-offset: 4px;">hello@switdeveloper.com</a></p>
+                    </div>
+
+                    <div class="mb-lg">
+                        <h4 style="text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-subtle); font-family: var(--font-sans); font-size: 0.875rem;" class="mb-sm">Global Headquarters</h4>
+                        <p>100 Digital Avenue, Suite 400<br>San Francisco, CA 94107<br>United States</p>
+                    </div>
+
+                    <div>
+                        <h4 style="text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-subtle); font-family: var(--font-sans); font-size: 0.875rem;" class="mb-sm">Connect</h4>
+                        <ul style="list-style: none; display: flex; gap: var(--space-md);">
+                            <li><a href="#" style="text-decoration: underline; text-underline-offset: 4px;">LinkedIn</a></li>
+                            <li><a href="#" style="text-decoration: underline; text-underline-offset: 4px;">Twitter</a></li>
+                            <li><a href="#" style="text-decoration: underline; text-underline-offset: 4px;">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Highly Styled Contact Form -->
+                <div class="reveal">
+                    <form class="contact-form" action="#" method="POST" onsubmit="event.preventDefault(); alert('Message sent! Thank you for reaching out to SwitDeveloper.');">
+
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+                            <label for="name" class="form-label">Your Name</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Email Address" required>
+                            <label for="email" class="form-label">Email Address</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" id="company" name="company" class="form-control" placeholder="Company / Organization">
+                            <label for="company" class="form-label">Company / Organization</label>
+                        </div>
+
+                        <div class="form-group" style="margin-top: var(--space-sm);">
+                            <textarea id="message" name="message" class="form-control" placeholder="Tell us about your project" required></textarea>
+                            <label for="message" class="form-label">Tell us about your project</label>
+                        </div>
+
+                        <div class="mt-md">
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Inquiry</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo" style="color: var(--color-text-light);">SwitDeveloper</a>
+                    <p class="mt-xl" style="color: var(--color-subtle); max-width: 40ch;">Architecting premium digital experiences through sophisticated design and strategic marketing.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Social</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SwitDeveloper. All rights reserved.</p>
+                <p>Designed with meticulous precision.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
